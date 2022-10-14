@@ -1,26 +1,26 @@
-#Lecture 01
-##How you can find me 
+# Lecture 01
+## How you can find me 
 
 **github**: pylector2022
 
 **email**: python.lector.2022@gmail.com
 
 
-##AGENDA
+## AGENDA
 
    1. Introduction
    2. Types
    3. Statements
    4. Helpful info
 
- ##1. Introduction
+ ## 1. Introduction
 1. Why do you choose python?
 2. What do you expect from python course?
 3. What are your goals?
 4. What are you willing to do to achieve your goals?
 
 
-##2. Types
+## 2. Types
 1. **Text Type**
 ```text
                  "Hello world"
@@ -63,7 +63,7 @@
                  memoryview > memoryview(bytearray(b'hello world! '))
 ```
 
-###Mutable and Immutable 
+### Mutable and Immutable 
 All types separate onto two gropes - mutable and immutable 
 ```text
     Mutable -> list, dict, set
@@ -71,7 +71,7 @@ All types separate onto two gropes - mutable and immutable
 ```
 
 
-##2. Statements
+## 2. Statements
 1. Basic mathematical statements
 ```text
     +    2 + 2
@@ -153,7 +153,7 @@ python condition expression
        print('3 is less than 2')
 
 
-##4. Helpful info
+## 4. Helpful info
 How can I pass values into python code from terminal?
 ```python
 a = int(input('Please, type value for a and press enter'))

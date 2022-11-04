@@ -31,6 +31,7 @@ Falsy values
     None
     int, float == 0
     len(string) == 0
+    [], {} (), set(), frozenset()
 
 ### 1.2. Logic operations
     

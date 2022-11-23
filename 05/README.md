@@ -74,3 +74,38 @@ func10(1, 4)
 any_1, all_1, zip_1, map, filter, sum, enumerate, range
 
 zip_1 == list(zip())
+
+
+
+all([]) == your_all([])
+all([True, False]) == your_all([True, False])
+all([True, True]) == your_all([True, True])
+all([False, False]) == your_all([False, False])
+
+any([]) == your_any([])
+any([True, False]) == your_any([True, False])
+any([True, True]) == your_any([True, True])
+any([False, False]) == your_any([False, False])
+
+list(zip(range(10), range(15), range(8))) == your_zip(range(10), range(15), range(8))
+list(zip(range(10), range(15), [])) == your_zip(range(10), range(15), range(8))
+list(zip(range(10))) == your_zip(range(10))
+
+list(map(int, '1234567890')) == your_map(int, '1234567890')
+list(map(min, range(10), range(20, 30), range(25, 15, -1))) == your_map(min, range(10), range(20, 30), range(25, 15, -1))
+
+list(filter(None, [0, 1, '', 2, 3, [], 5, {}, None, 6, False])) == your_filter(None, [0, 1, '', 2, 3, [], 5, {}, None, 6, False]) 
+list(filter(lambda a: a % 2 == 0, range(10+1))) == your_filter(lambda a: a % 2 == 0, range(10+1))
+
+
+sum(range(10)) == your_sum(range(10))
+sum([]) == your_sum([])
+
+list(enumerate('1234567890', 1)) == your_enumerate('1234567890', 1)
+
+list(range(10)) == your_range(10)
+list(range(10, 20)) == your_range(10, 20)
+list(range(10, 20, 3)) == your_range(10, 20, 3)
+list(range(20, 10, 3)) == your_range(20, 10, 3)
+list(range(20, 10, -3)) == your_range(20, 10, -3)
+list(range(20, 10)) == your_range(20, 10)

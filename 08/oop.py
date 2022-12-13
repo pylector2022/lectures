@@ -90,16 +90,11 @@ class ClientBBC(Client):
 
 # Інтерфейс
 class Figure:
-    @NotImplemented
     def get_perimeter(self):
-        """
-        :return:
-        """
-        pass
+        raise NotImplementedError()
 
-    @NotImplemented
     def get_area(self):
-        pass
+        raise NotImplementedError()
 
 class NonNegative:
     
@@ -114,6 +109,9 @@ class Triangle(Figure):
         self.a = a
         self.b = b
         self.c = c
+
+        if self.a + self.b <= self.c or ...:
+            raise MyCustomError('')
 
     def get_perimeter(self):
         return self.a + self.b + self.c

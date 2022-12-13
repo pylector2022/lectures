@@ -50,7 +50,10 @@ class NonNegative:
 
 class Test1:
     value1 = NonNegative()
-    value2 = 1
+    def __init__(self, a):
+        self.value1 = a
+        print(self.value1)
+        print( 10 + self.value1)
 
 
 

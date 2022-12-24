@@ -14,11 +14,11 @@ RULES:
 
                 4
 github main <------ github dev 
-| 1,5                /\
+| 1,5                 ^
 |                     |
 |                     |
 |                     | 3
-\/        2,6         |
+Y       2,6           |
 git main -------> git dev
 
 

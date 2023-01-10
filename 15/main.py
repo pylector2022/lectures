@@ -3,7 +3,8 @@ from useful import foo
 
 print(foo.my_sum(1, 2, 4, 6))
 
-
+if __name__ == '__main__':
+    main(path='dfdsfdsf')
 
 
 

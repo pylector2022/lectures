@@ -53,7 +53,7 @@ def read_files(path: str) -> tuple:
     return crew, enter, exit
 
 
-def main(path: str) -> list:
+def main(path: str, ) -> list:
     return []
 
 

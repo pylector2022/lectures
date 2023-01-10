@@ -5,7 +5,6 @@ from pathlib import Path
 from .example import reverse_string, reverse_text_from_file
 
 
-
 class TestReverseString(unittest.TestCase):
     def setUp(self) -> None:
         self.cases = [

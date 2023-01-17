@@ -121,6 +121,4 @@ JOIN `exitmodel` as exm ON exm.person_id = pm.id
 JOIN `entermodel` as emm ON emm.person_id = pm.id
 WHERE pm.crew_id = "E998THD"
 
-
-
 """
